@@ -21,10 +21,14 @@ package-lock.json
 .DS_Store
 Thumbs.db
 
-# Video files
-*.mp4
-*.avi
-*.mov
+# Video files (exclude demo videos)
+# *.mp4
+# *.avi
+# *.mov
+
+# Allow demo video
+!demo.mp4
+!viedo.mp4.mp4
 
 # Logs
 npm-debug.log*

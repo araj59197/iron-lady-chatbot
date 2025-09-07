@@ -124,6 +124,37 @@ Application will open at `http://localhost:3000`
 - **Chat Statistics**: View conversation metrics in the sidebar
 - **Persistent Chats**: Your conversations are automatically saved
 
+## 📸 Screenshots & Demo
+
+### 🎬 **Demo Video**
+![Demo Video](./viedo.mp4.mp4)
+
+*A complete walkthrough of the Iron Lady Chatbot showcasing all features*
+
+### 🖼️ **Application Screenshots**
+
+#### 💬 **Main Chat Interface**
+![Chat Interface](./screenshots/chat-interface.png)
+*Modern chat bubble interface with typing indicators and message reactions*
+
+#### 🌙 **Dark Theme Mode**
+![Dark Theme](./screenshots/dark-theme.png)
+*Professional dark mode for comfortable viewing*
+
+#### 📊 **Chat Statistics & Features**
+![Features](./screenshots/features-panel.png)
+*Export functionality, message statistics, and quick questions*
+
+#### 📱 **Mobile Responsive Design**
+![Mobile View](./screenshots/mobile-responsive.png)
+*Optimized interface for mobile devices*
+
+#### 🤖 **AI-Powered Responses**
+![AI Responses](./screenshots/ai-responses.png)
+*Intelligent responses beyond FAQ using OpenAI integration*
+
+> **Note**: Screenshots showcase the modern UI design, dark/light themes, and comprehensive features of the Iron Lady Chatbot.
+
 ## 🏗️ Project Structure
 
 ```
