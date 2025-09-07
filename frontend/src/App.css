@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    min-height: 100vh;
+}
+
+/* Dark mode body */
+body.dark-mode {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .MuiContainer-root {
+        padding: 8px !important;
+    }
+    
+    .MuiTypography-h4 {
+        font-size: 1.8rem !important;
+    }
+    
+    .message-container {
+        max-width: 90% !important;
+    }
+    
+    .header-buttons {
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 4px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .MuiTypography-h4 {
+        font-size: 1.5rem !important;
+    }
+    
+    .quick-questions {
+        flex-direction: column !important;
+        align-items: stretch !important;
+    }
+    
+    .quick-questions .MuiChip-root {
+        margin: 2px 0 !important;
+    }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Animation for messages */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Typing indicator animation */
+@keyframes typing {
+    0%, 60%, 100% {
+        transform: translateY(0);
+        opacity: 0.4;
+    }
+    30% {
+        transform: translateY(-10px);
+        opacity: 1;
+    }
+}
+
+/* Button hover effects */
+.MuiIconButton-root {
+    transition: all 0.2s ease-in-out !important;
+}
+
+.MuiIconButton-root:hover {
+    transform: scale(1.1) !important;
+}
+
+/* Message bubble hover effect */
+.message-bubble {
+    transition: all 0.2s ease-in-out;
+}
+
+.message-bubble:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* Enhanced animations */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-in-up {
+    animation: fadeInUp 0.4s ease-out;
+}
+
+.message-animation {
+    animation: slideIn 0.3s ease-out;
+}
