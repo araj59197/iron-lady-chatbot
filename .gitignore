@@ -30,6 +30,12 @@ Thumbs.db
 !demo.mp4
 !viedo.mp4.mp4
 
+# Allow project images
+!images/*.png
+!images/*.jpg
+!images/*.jpeg
+!images/*.gif
+
 # Logs
 npm-debug.log*
 yarn-debug.log*
